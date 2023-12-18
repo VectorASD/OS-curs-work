@@ -1,0 +1,8 @@
+[Unit]
+Description=curswork
+
+[Service]
+ExecStart=/home/vectorasd/lab6/main
+
+[Install]
+WantedBy=multi-user.target
